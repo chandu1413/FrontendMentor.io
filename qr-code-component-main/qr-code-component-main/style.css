@@ -4,9 +4,7 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
-
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
 .outfit-h1 {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
@@ -16,7 +14,6 @@
     text-align: center;
     margin-right: 3px;
     padding-left: 10%;
-   
 }
   .p-text{
     width: 80%;
@@ -36,7 +33,6 @@
     align-items: center;
 }
 
-
 .card-div{
 
     width: 22%;
@@ -45,13 +41,11 @@
     border-radius: 20px;
     background-color: var(--White);
 }
-
 .container{
     
     padding-left: 15px;
     padding-top: 15px;
 }
-
 .qr-img{
     box-sizing: border-box;
 }
@@ -64,8 +58,6 @@
     width: 90%;
     box-sizing: border-box;
 }
-
-
 
 @media only screen and (max-width: 767px) {
     .container{
@@ -86,7 +78,6 @@
         border-radius: 20px;
         background-color: var(--White);
     }
-    
     .container{
         
         padding-left: 15px;
