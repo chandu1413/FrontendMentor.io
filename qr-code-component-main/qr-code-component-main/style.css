@@ -4,7 +4,6 @@
     --Grayish-blue: hsl(220, 15%, 55%);
     --Dark-blue: hsl(218, 44%, 22%);
 }
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 .outfit-h1 {
     font-family: "Outfit", sans-serif;
     font-weight: 600;
@@ -28,16 +27,15 @@
 
 .body{
     background-color: var(--Light-gray);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
 }
 
 .card-div{
 
     width: 22%;
     box-sizing: border-box;
-    margin: 150px 0px;
     border-radius: 20px;
     background-color: var(--White);
 }
